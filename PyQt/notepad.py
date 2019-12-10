@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication
 from PyQt5 import uic
 
-form_class = uic.loadUiType("D:\\Code\\python\\PyQt\\qt_momo.ui")[0]
+form_class = uic.loadUiType("D:\\Code\\python\\PyQt\\notepad.ui")[0]
 
 class WindowClass(QMainWindow, form_class):
     def __init__(self):
